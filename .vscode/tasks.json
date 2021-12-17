@@ -27,7 +27,7 @@
             "type": "shell",
             "label": "Run C source code",
             "command": "./${fileBasenameNoExtension}",
-            "options":{
+            "options": {
                 "cwd": "${fileDirname}"
             },
             "group": "test"
